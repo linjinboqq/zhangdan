@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot-01-hello" />
+        <module name="spring-boot-01-init-02" />
+        <module name="spring-boot-02-config" />
+        <module name="spring-boot-02-config02" />
+        <module name="spring-boot-03-logging" />
+        <module name="spring-boot-04-web" />
+        <module name="spring-boot-05-bill" />
+        <module name="spring-boot-06-serverlet" />
+        <module name="spring-boot-07-tomcat" />
+        <module name="spring-boot-08-jdbc" />
+        <module name="spring-boot-08-mybatis" />
+        <module name="spring-boot-09-data-jpa" />
+        <module name="spring-boot-10-bill" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sping-boot-09-tom" target="1.8" />
+      <module name="spring-boot-11-bill" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="sping-boot-09-tom" options="-parameters" />
+      <module name="spring-boot-01-hello" options="-parameters" />
+      <module name="spring-boot-01-init-02" options="-parameters" />
+      <module name="spring-boot-02-config" options="-parameters" />
+      <module name="spring-boot-02-config02" options="-parameters" />
+      <module name="spring-boot-03-logging" options="-parameters" />
+      <module name="spring-boot-04-web" options="-parameters" />
+      <module name="spring-boot-05-bill" options="-parameters" />
+      <module name="spring-boot-06-serverlet" options="-parameters" />
+      <module name="spring-boot-07-tomcat" options="-parameters" />
+      <module name="spring-boot-08-jdbc" options="-parameters" />
+      <module name="spring-boot-08-mybatis" options="-parameters" />
+      <module name="spring-boot-09-data-jpa" options="-parameters" />
+      <module name="spring-boot-10-bill" options="-parameters" />
+      <module name="spring-boot-11-bill" options="-parameters" />
+    </option>
+  </component>
+</project>

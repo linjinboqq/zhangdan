@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table border="1">
+    <tr>
+        <th>
+            name
+        </th>
+        <th>
+            age
+        </th>
+    </tr>
+    <tr th:each="user : ${userlist}">
+        <td th:text="${user.name}">
+            user.name
+        </td>
+        <td th:text="${user.age}">
+            user.age
+        </td>
+    </tr>
+</table>
+<ul>
+    <!--写在同一个标签里就会都起作用-->
+    <li th:each="user : ${userlist}" th:text="${user.name}"></li>
+</ul>
+<hr>
+<h2 th:if="not ${#lists.isEmpty(userlist)}"> 显示出来 </h2>
+<hr>
+
+<div th:switch="${sex}">
+    <p th:case="'男'"> 这是男的 </p>
+    <!--<p th:case="'女'"> 这是女的 </p>-->
+    <!--<p th:case="*"> 这是未知的 </p>-->
+    <p th:case="${sex2}">
+        这是女的</p>
+    <!--<div th:switch="${user.role}">-->
+    <!--<p th:case="'admin'">User is an administrator</p> -->
+    <!--<p th:case="#{roles.manager}">User is a manager</p>-->
+    <!--</div>-->
+</div>
+<hr>
+<div th:object="${session.keyuser}">
+    <h3 th:text="*{name}"></h3>
+    <h3 th:text="${session.keyuser.name}"></h3>
+    <h3 th:text="*{age}"></h3>
+    <h3 th:text="${session.keyuser.age}"></h3>
+</div>
+
+<p>p的效果 <span>span 的效果</span>
+</p>
+<div>
+    热部署但是开发的
+</div>
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+=2019-05-21 06-23--47:0116>>main >>INFO ==c.m.s.SpringBoot03LoggingApplicationTests==Starting SpringBoot03LoggingApplicationTests on LAPTOP-35LMPRGQ with PID 15264 (started by 24353 in D:\SpringBootproject\spring-boot-03-logging)
+=2019-05-21 06-23--47:0120>>main >>INFO ==c.m.s.SpringBoot03LoggingApplicationTests==No active profile set, falling back to default profiles: default
+=2019-05-21 06-23--49:0156>>main >>INFO ==o.s.scheduling.concurrent.ThreadPoolTaskExecutor==Initializing ExecutorService 'applicationTaskExecutor'
+=2019-05-21 06-23--49:0430>>main >>INFO ==c.m.s.SpringBoot03LoggingApplicationTests==Started SpringBoot03LoggingApplicationTests in 2.838 seconds (JVM running for 3.822)
+=2019-05-21 06-23--49:0760>>main >>INFO ==c.m.s.SpringBoot03LoggingApplicationTests==info
+=2019-05-21 06-23--49:0761>>main >>WARN ==c.m.s.SpringBoot03LoggingApplicationTests==warn
+=2019-05-21 06-23--49:0761>>main >>ERROR==c.m.s.SpringBoot03LoggingApplicationTests==error
+=2019-05-21 06-23--49:0766>>Thread-1 >>INFO ==o.s.scheduling.concurrent.ThreadPoolTaskExecutor==Shutting down ExecutorService 'applicationTaskExecutor'

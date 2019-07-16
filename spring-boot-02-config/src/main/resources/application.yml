@@ -1,0 +1,30 @@
+#server:
+#  port: 8088
+##emp:
+##  age: 22
+##  last: lin
+##  salary: 1000
+#emp1: {age: 32,last: lin}
+#fortes:
+#  - java
+#  - phthon
+#  - dsjk
+#fortes2: [java, python, hadoop]
+##emp的配置数据
+#emp:
+#  age: 24
+#  lastname: zhang
+#  salary: 2000
+#  map:
+#    key: value1
+#    value: value2
+##    key: value3
+#
+#  list:
+#    - java
+#    - php
+#    - one
+#  forte:
+#    name: java
+#    time: 8
+#

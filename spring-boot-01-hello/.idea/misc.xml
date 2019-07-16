@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../sping-boot-09-tom" />
+    <file type="web" url="file://$PROJECT_DIR$/../spring-boot-07-tomcat" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-01-init-02/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-02-config/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-02-config02/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-03-logging/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-04-web/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-05-bill/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-08-serverlet/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-07-tomcat/pom.xml" />
+        <option value="$PROJECT_DIR$/../sping-boot-09-tom/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-08-jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-08-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-09-data-jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-10-bill/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
